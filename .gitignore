@@ -1,0 +1,8 @@
+node_modules
+dist
+coverage
+.vscode
+*-error.log
+test-report.html
+globalConfig.json
+report.*.json

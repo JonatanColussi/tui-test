@@ -1,0 +1,35 @@
+{
+  "extends": ["standard-with-typescript", "plugin:jest/recommended"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "rules": {
+    "@typescript-eslint/require-await": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/no-floating-promises": "off",
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "jest/no-export": "off",
+    "jest/expect-expect": "off",
+    "import/no-duplicates": "off",
+    "import/export": "off",
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/promise-function-async": "off"
+  },
+  "plugins": ["jest", "@typescript-eslint"],
+  "env": {
+    "jest": true
+  }
+}
