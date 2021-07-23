@@ -50,7 +50,8 @@
     "date-fns": "^2.22.1",
     "express": "^4.17.1",
     "fast-glob": "^3.1.1",
-    "mongodb": "^3.5.1"
+    "mongodb": "^3.5.1",
+    "swagger-ui-express": "^4.1.6"
   },
   "config": {
     "mongodbMemoryServer": {
